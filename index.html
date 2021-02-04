@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/proje1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/proje.js"></script>
+</head>
+
+<body>
+
+    <header class="mt-5">
+        <img src="image/Group5.png" class="groupimg" alt=""/>
+
+        <div><img src="image/Group18.png" alt="" class="group"/></div>
+
+        <div class="menu_container">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0px; top: 0px;"
+                id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large"> &times;</button>
+                <a href="#" class="w3-bar-item w3-button">Alp group</a>
+                <a href="#" class="w3-bar-item w3-button">İletişim</a>
+                <a href="#" class="w3-bar-item w3-button">Hakkında</a>
+            </div>
+
+            <div class="w3-teal">
+                <button id="rumeysa" class="w3-button w3-teal w3-xlarge w3-right"
+                    onclick="openRightMenu()">&#9776;</button>
+            </div>
+        </div>
+        <div>
+            <span class="tr">TR</span>
+        </div>
+        <div>
+            <i class="fas fa-chevron-down ikon"></i>
+        </div>
+        <div class="kayan">
+            <span class="hizmet">HİZMETLER</span>
+            <br><br>
+            <span class="insaat">İNŞAAT</span>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade imr">
+                    <img src="image/group22.png" width="300px;" height="330px;"
+                        class="imr">
+                    <h3 class="hizmet1">SONRAKİ HİZMET <br><br> TEKSTİL</h3>
+                </div>
+
+                <div class="mySlides fade imr">
+                    <img src="image/ikimg.png" width="300px;" height="330px;" class="imr">
+                    <h3 class="hizmet1">SONRAKİ HİZMET <br><br> TEKSTİL</h3>
+                </div>
+
+                <div class="mySlides fade imr">
+                    <img src="image/ilkimg.png" width="300px;" height="330px;"
+                        class="imr">
+                    <h3 class="hizmet1">SONRAKİ HİZMET <br> <br> TEKSTİL</h3>
+                </div>
+
+                <div class="ss">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+            </div>
+            <br>
+        </div>
+    </header>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="dis">
+                   
+                </div>
+
+            </div>
+        </div>
+        <br>
+            <br><br>
+        </div>
+        <br><br>
+        <div class="container">
+            <section>
+                <div class="row mb-5">
+                    <div class="col-md-3">
+                        <span class="alpgroup">ALP GROUP HAKKINDA</span>
+                    </div>
+                    <div class="col-md-2 border-right p-3 mt-2" style="height: 35px;"></div>
+                    <div class="col-md-7">
+                        <p ><small style="font-size: medium; color: darkgrey;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit quam, qui, cumque ex <br>
+                         soluta vero laudantium ratione debitis exercitationem, vel quisquam optio delidfs <br>
+                          ducimus excepturi dolorem eum a accusamus!
+                        </small></p>
+                    </div>
+                    <div class="mb-5"></div>
+                </div>
+                <div class="row">
+                    <div class="offset-md-8"></div>
+                 <div class="col-md-2"> 
+                   <img src="image/Bitmap3.png"  alt="bitmap1">
+                 </div>
+                 <div class="col-md-2">
+                   <img src="image/Bitmap4.png"  alt="bitmap3">
+                 </div>
+               </div>
+              <div class="row mt-5"></div> <div class="row mt-5"></div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <span class="alpgroup">ALP GROUP REFERANSLARI</span>
+                    </div>
+                    <div class="col-md-2">
+                       <img src="image/Bitmap1.png" class="border-right  p-4" alt="bitmap1">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap1.png" class="border-right  p-4" alt="bitmap2">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap2.png" class="border-right  p-4" alt="bitmap3">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap1.png" class="p-4" alt="bitmap4">
+                    </div>
+                    <hr class="offset-md-4 col-md-8">
+                    <div class="offset-md-4"></div>
+                    <div class="col-md-2">
+                       <img src="image/Bitmap1.png" class="border-right p-4" alt="bitmap5">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap1.png" class="border-right  p-4" alt="bitmap6">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap1.png" class="border-right p-4" alt="bitmap7">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="image/Bitmap1.png" class="p-4" alt="bitmap8">
+                    </div>
+                </div>
+            </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br>
+
+        <div class="swiper-container mt-2">
+            <div class="swiper-wrapper er">
+                <div class="swiper-slide ">
+                    <img src="image/kagıt.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide ">
+                    <img src="image/meyve.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide ">
+                    <img src="image/kagıt.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide ">
+                    <img src="image/meyve.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide ">
+                    <img src="kagıt.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide ">
+                    <img src="image/meyve.png" alt="" class="images">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/kagıt.png" alt="" class="images">
+                </div>
+
+            </div>
+            <div id="progress"></div>
+            <div class="swiper-pagination "></div>
+        </div>
+
+    </article>
+    <div class="arka_plan">
+        <div class="tahta2">
+            <img src="image/send2.png" class="send2" alt="">
+        </div>
+        <p class="haber">HABERDAR OLUN</p>
+        <br>
+        <p class="eposta">E-Posta adresinizi paylaşın yeniliklerden ilk siz <br> haberdar olun.</p>
+        <div class="tahta">
+            <i class="far fa-envelope  ikon2">&emsp;</i>
+            <input class="form-control kutu_yazi " placeholder="Mail adresinizi yazınız"
+                name="Mail adresinizi yazınız. ">
+        </div>
+        <button class="buton">
+            <img src="image/send.png" class="send_img" alt="">
+        </button>
+        <div class="tahta3">
+            <i class="far fa-envelope ikon3"></i>
+        </div>
+        <div class="tahta4">
+            <img src="image/send2.png" class="send3" alt="">
+        </div>
+    </div>
+
+    <div class="container dd">
+        <div class="row ">
+            <div class="col-md-12 mb-5">
+                <h1 style="text-align: center;">ALP GRUP <span>LOREM IPSUM</span></h1>
+            </div>
+            <div class="col-md-3">
+                <img src="image/ilkimg.png" alt="">
+                <h3 class="yazi1">PROJE</h3>
+                <div class="bord1">
+                    <h1 class="sayi1">6</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="image/ikimg.png" alt="">
+                <h3 class="yazi2">MARKA</h3>
+                <div class="bord1">
+                    <h1 class="sayi2">4</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="image/ucimg.png" alt="">
+                <h3 class="yazi3">MARKA</h3>
+                <div class="bord3">
+                    <h1 class="sayi3">220</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="image/dortimg.png" alt="">
+                <h3 class="yazi2">ÖDÜL</h3>
+                <div class="bord1">
+                    <h1 class="sayi2">8</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="d-flex">
+        <img src="image/foot1.png" class="foot1" alt="">
+        <div class="border-right" style="height: 50px; color: black;"></div>
+        <p style="padding-left: 400px; margin-top: -32px;">0212 000 00 00</p>
+        <div class="">
+
+            <div class="kurum"><a href="#" class="link">İLETİŞİM</a></div>
+            <div class="kurum"><a href="#" class="link">KARİYER</a></div>
+            <div class="kurum"><a href="#" class="link">BASIN ODASI</a></div>
+            <div class="kurum"><a href="#" class="link">HİZMETLER</a></div>
+            <div class="kurum"><a href="#" class="link">KURUMSAL</a></div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="son">
+            <div class="container-fluid">
+                <div class="row d-flex ">
+                    <div class="col-md-6">
+                        <p class="foot">TAKİP EDİN</p>
+                        <div class="divv">
+                            <a href="https:/www.instagram.com" target="_blank"> <i
+                                    class="fab footer_ikon fa-instagram"></i></a>
+                            <a href="https:/www.linkedlin.com" target="_blank"> <i
+                                    class="fab footer_ikon fa-linkedin-in"></i></a>
+                            <a href="https:/www.facebook.com" target="_blank"> <i class="fab footer_ikon fa-facebook-f"
+                                    style="color: rgb(16, 170, 190);"></i></a>
+                            <a href="https:/www.twitter.com" target="_blank"><i
+                                    class="fab footer_ikon fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hak"><small class="d-flex mt-4">2020 TÜM HAKLARI SAKLIDIR.</small></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+        }
+
+        function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+        }
+
+        function openRightMenu() {
+            document.getElementById("rightMenu").style.display = "block";
+        }
+
+        function closeRightMenu() {
+            document.getElementById("rightMenu").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
